@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="练习1" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+</head>
+<body>
+    <h4>青春不常在，抓紧写代码</h4>
+    <table width = "500px">
+        <!-- 第一行 -->
+        <tr>                
+            <td>性别：</td>
+            <td>
+                <input type="radio" name="sex" id = "nan"> 男 <label for = "nan"><img src = "image\man.png" alt="男性" width="40px" height="40px"></label>
+                <input type="radio" name="sex" id = "nv"> 女 <label for = "nv"><img src = "image/woman.png" alt="女性" width="40px" height="40px"></label>
+            </td>
+        </tr>
+        <!-- 第二行 -->
+        <tr>
+            <td>生日:</td>
+            <td>
+                <select>
+                    <option>请选择年份</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option selected = "selected">2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                </select>
+                <select>
+                    <option>请选择月份</option>
+                    <option>1月</option>
+                    <option>2月</option>
+                    <option selected = "selected">3月</option>
+                    <option>4月</option>
+                    <option>5月</option>
+                    <option>6月</option>
+                </select>
+                <select>
+                    <option>请选择日期</option>
+                    <option>1日</option>
+                    <option>2日</option>
+                    <option selected = "selected">3日</option>
+                    <option>4日</option>
+                    <option>5日</option>
+                    <option>6日</option>
+                </select>
+            </td>
+            <!-- 第三行 -->
+        </tr>
+            <td>所在地区：</td>
+            <td>
+                <input type="text" value="请输入你所在的地区">
+            </td>
+        </tr>
+        <!-- 第四行 -->
+         <tr>
+            <td>婚姻状况：</td>
+            <td>
+                <input type="radio" name="marry" checked = "checked" id = "dont marry"><label for ="dont marry">未婚 </label><input type="radio" name="marry" id ="married"> <label for ="married"> 已婚 </label><input type="radio" name="marry" id="end marry"><label for="end marry">离婚</label>
+            </td>
+         </tr>
+         <!-- 第五行 -->
+          <tr>
+            <td>个人最高学历：</td>
+            <td>
+                <input type="text" value="请输入你的最高学历">
+            </td>
+          </tr>
+          <!-- 第六行 -->
+           <tr>
+            <td>喜欢的编辑器：</td>
+            <td>
+                <input type="checkbox" name="love" id="python"><label for="python">python</label>
+                <input type="checkbox" name="love" id="vscode"><label for="vscode">vscode</label>
+                <input type="checkbox" name="love" id="jave"><label for="jave">jave</label>
+                <input type="checkbox" name="love" id="C++"><label for="C++">C++</label>
+                <input type="checkbox" name="love" id="all"><label for="all">都喜欢</label>
+            </td>
+           </tr>
+           <!-- 第七行 -->
+            <tr>
+                <td>自我介绍</td>
+                <td>
+                    <textarea>输入自我介绍</textarea>
+                </td>
+            </tr>
+            <!-- 第八行 -->
+             <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="免费注册">
+                </td>
+             </tr>
+            <!-- 第九行 -->
+              <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" checked="checked">我已仔细阅读注册条款和会员须知
+                </td>
+             </tr>
+             <!-- 第十行 -->
+             <tr>
+                <td></td>
+                <td>
+                    <a href="会员须知.html">会员须知</a>
+                </td>
+             </tr>
+            <!-- 第十一行 -->
+             <tr>
+                <td></td>
+                <td>
+                    <h4>我承诺</h4>
+                    <ul type="disc">
+                        <li>我天天写代码</li>
+                        <li>我不写屎山</li>
+                        <li>我好好写表注</li>
+                    </ul>
+                </td>
+             </tr>
+    </table>
+</body>
+</html>

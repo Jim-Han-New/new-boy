@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 1200px;
+            height: 460px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+        .box .left {
+            float: left;
+            width: 230px;
+            height: 460px;
+            background-color: purple;
+        }
+        .box .right {
+            float: left;
+            width: 970px;
+            height: 460px;
+            background-color: skyblue;
+        }
+        .Box {
+            width: 1226px;
+            height: 260px;
+            background-color: seashell;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        .Box li {
+            list-style: none;
+            float: left;
+            width: 296px;
+            height: 260px;
+            margin-left: 14px;
+            background-color: blue;
+        }
+        .Box .first {
+            margin-left: 0;
+            background-image:url(text4.png);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left">左侧</div>
+        <div class="right">右侧</div>
+    </div>
+    <ul class="Box">
+        <li class="first">第一栏</li>
+        <li>第二栏</li>
+        <li>第三栏</li>
+        <li>第四栏</li>
+    </ul>
+</body>
+</html>

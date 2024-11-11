@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(107, 157, 140);
+}
+.box1 h1 {
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
+a {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+.box1 {
+    height: 50px;
+    background-color: #787070;
+    line-height: 50px;
+}
+.box2 {
+    height: 560px;
+    width: 1226px;
+    background-color: rgb(113, 113, 104);
+    margin: 0 auto;
+}
+.box2 li {
+    list-style: none ;
+    padding-bottom: 14px;
+}
